@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Flashcards App</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz Flashcards</h1>
+        <select id="category-select">
+            <option value="all">All Categories</option>
+            <option value="Anatomy">Anatomy</option>
+            <option value="Histology">Histology</option>
+            <option value="Physiology">Physiology</option>
+            <opyion value="Biochemistry">Biochemistry</opyion>
+            <opyion value="Microbiology">Microbiology</opyion>
+            <opyion value="Parasitology">Parasitology</opyion>
+            <opyion value="Pharmacology">Pharmacology</opyion>
+            <opyion value="Pathology">Pathology</opyion>
+            <!-- Add more categories as needed -->
+        </select>
+        <div class="flashcard" id="flashcard">
+            <div class="front">
+                <div class="question">What is the normal body temperature range?</div>
+            </div>
+            <div class="back">
+                <div class="answer">36.1°C to 37.2°C (97°F to 99°F)</div>
+            </div>
+        </div>
+        <button id="show-answer">Show Answer</button>
+        <button id="next-card">Next Card</button>
+        <button id="add-card">Add Card</button>
+        <button id="remove-card">Remove Card</button>
+        <button id="start-quiz">Start Quiz</button>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
+
